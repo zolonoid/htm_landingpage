@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background-color: #020A18;
+    padding: 0px 10px 50px 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    width: 100%;
+    aspect-ratio: auto;
+}
+
+.top_header {
+    margin-bottom: 160px;
+}
+
+.top_page,
+.bot_page {
+    margin: 0 auto;
+    max-width: 1146px;
+}
+
+.header_menu_link {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    padding: 40px 20px;
+
+}
+
+.header_menu {
+    display: flex;
+    justify-content: center;
+}
+
+.top_subtitle {
+    color: var(--3-a-68-b-8, #3A68B8);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.top_title {
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    margin-bottom: 40px;
+}
+
+.top_info {
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+
+.top_button_link {
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 15px 0px;
+    background-color: #3A68B8;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: center;
+}
+
+.top_button1 {
+    width: 41.91%;
+    min-width:124px;
+}
+
+.top_button2 {
+    width: 53.19%;
+    min-width: 157px;
+}
+
+.top_button_link:hover {
+    border: 2px solid #FFF;
+}
+
+.top_content_left {
+    width: 52.7%;
+}
+
+.top_content_right {
+    width: 36.3%;
+    display: flex;
+    align-items: center;
+}
+
+.top_content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.top_button_links {
+    width: 67.55%;
+    display: flex;
+    justify-content: start;
+}
+
+.play_icon {
+    margin-right: 10px;
+}
+
+.top_footer {
+    margin-bottom: 256px;
+}
+
+.top_logos,
+.top_logos1,
+.top_logos2 {
+    display: flex;
+    justify-content: center;
+}
+
+.top_logos {
+    gap: 6.3%;
+}
+
+.top_logos1 {
+    gap: 14.34%;
+}
+
+.top_logos2 {
+    gap: 12.565%;
+}
+
+.bot_content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bot_subcontent {
+    width: 31.59%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.bot_infobox1,
+.bot_infobox2,
+.bot_infobox3 {
+    border-radius: 10px;
+    background: #132035;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bot_infobox1 {
+    width: 31.59%;
+    margin-bottom: 30px;
+    gap: 30px;
+}
+
+.bot_infobox2 {
+    width: 65.794%;
+    gap: 60px;
+}
+
+.bot_infobox3 {
+    width: 100%;
+    gap: 30px;
+}
+
+.bot_infobox_img {
+    width: 32.45%;
+}
+
+.bot_infobox_img_big {
+    width: 44.092%;
+}
+
+.bot_infobox_title {
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+.bot_infobox_text {
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .top_page,
+    .bot_page {
+        max-width: 768px;
+    }
+
+    .top_content {
+        flex-direction: column;
+        align-items: center;
+        gap: 128px;
+    }
+
+    .top_content_left {
+        width: 78.75%;
+    }
+
+    .top_subtitle {
+        font-size: 16px;
+    }
+
+    .top_title {
+        font-size: 48px;
+    }
+
+    .top_content_right {
+        width: 53.98%;
+
+    }
+
+    .top_logos {
+        flex-wrap: wrap;
+    }
+
+    .top_logos1 {
+        margin-bottom: 32px;
+    }
+
+    .bot_infobox1,
+    .bot_infobox2,
+    .bot_subcontent {
+        width: 47.1354%;
+    }
+
+    .bot_content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bot_infobox2 {
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+
+    .bot_infobox_img_big {
+        width: 32.45%;
+    }
+}
