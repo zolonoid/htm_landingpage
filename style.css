@@ -34,7 +34,7 @@ img {
     font-weight: 600;
     line-height: normal;
     text-decoration: none;
-    padding: 40px 20px;
+    padding: 39px 16px;
 
 }
 
@@ -94,7 +94,7 @@ img {
 
 .top_button1 {
     width: 41.91%;
-    min-width:124px;
+    min-width: 124px;
 }
 
 .top_button2 {
@@ -133,7 +133,7 @@ img {
 }
 
 .top_footer {
-    margin-bottom: 256px;
+    margin-bottom: 264px;
 }
 
 .top_logos,
@@ -223,7 +223,7 @@ img {
     line-height: 160%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 
     .top_page,
     .bot_page {
@@ -265,6 +265,118 @@ img {
     .bot_infobox2,
     .bot_subcontent {
         width: 47.1354%;
+    }
+
+    .bot_content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bot_infobox2 {
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+
+    .bot_infobox_img_big {
+        width: 32.45%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .top_page,
+    .bot_page {
+        max-width: 362px;
+    }
+
+    .top_header {
+        margin-bottom: 64px;
+    }
+
+    .header_menu_link {
+        font-size: 14px;
+        padding: 22px 8px;
+    }
+
+    .top_content {
+        width: 94.7514%;
+        margin-bottom: 128px;
+        flex-direction: column;
+        align-items: center;
+        gap: 128px;
+    }
+
+    .top_content_left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top_subtitle {
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+
+    .top_title {
+        text-align: center;
+        font-size: 28px;
+        margin-bottom: 64px;
+    }
+
+    .top_info {
+        text-align: center;
+        margin-bottom: 39px;
+    }
+
+    .top_button_links {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .top_button1 {
+        width: 49.8542%;
+    }
+
+    .top_button2 {
+        width: 63.2653%;
+    }
+
+    .top_content_right {
+        width: 100%;
+
+    }
+
+    .top_footer {
+        width: 94.7514%;
+        margin-bottom: 64px;
+    }
+
+    .top_logos {
+        flex-wrap: wrap;
+    }
+
+    .top_logos1 div, .top_logos2 div {
+        margin-bottom: 32px;
+    }
+
+    .top_logos1 {
+        width: 63.5569%;
+        flex-wrap: wrap;
+    }
+
+    .top_logos2 {
+        width: 85.7143%;
+        flex-wrap: wrap;
+    }
+
+    .bot_infobox1,
+    .bot_infobox2,
+    .bot_subcontent {
+        width: 96.5333%;
     }
 
     .bot_content {
